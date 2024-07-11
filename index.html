@@ -100,11 +100,17 @@
         display: block !important;
       } */
       .header-img {
-        padding: 80px;
+        flex: 1;
+        height: 150px;
+        max-width: 100%;
         text-align: center;
-        /* background-image: url(https://www.acnur.org/portugues/wp-content/uploads/2019/01/Venezuelan-refugee-in-Brazil-2332.jpg); */
-        color: rgb(255, 255, 255);
-        background-image: linear-gradient(to right, rgb(29, 96, 190), rgb(255, 255, 255));
+        justify-content: center;
+        background-image:url(/img/acnur.png);
+        color: aliceblue;
+        margin:0 auto;
+        position: relative;
+        background-size:cover;
+        background-repeat: no-repeat;
       }
     </style>
 
@@ -112,8 +118,7 @@
 
     <main>
       <div class="header-img">
-        <h1>Refugiadas</h1>
-        <p>Eles estão sem casa?</p>
+       
       </div>
 
       <div class="container">
@@ -153,7 +158,7 @@
             <button
               type="button"
               class="btn btn-primary"
-              style="background-color: blueviolet"
+              style="background-color: rgb(138, 146, 255)"
             >
               Cadastre-se
             </button>
