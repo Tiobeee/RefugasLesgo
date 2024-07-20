@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Cadastro </title>
+    <meta charset="utf-8">
+    <style>
+        form {
+            background-color: aliceblue;
+            width: 600px;
+            height: 450px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 25px;
+            /* background: url(paper.gif); */
+        }
+
+        fieldset {
+            border-radius: 10px;
+            padding: 16px;
+            border: solid 2px #FFFFFF;
+        }
+
+        input[type=submit] {
+            width: 100px;
+            font-size: 0.90rem;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #928aff;
+            outline: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Cadastre-se
+    </h1>
+
+    <div class="form-img">
+        <div class="half-img">
+
+        </div>
+
+        <div class="half-form">
+            <form>
+                <fieldset>
+                    <legend> Formulário de cadastro </legend>
+                    <fieldset>
+                        <legend> DADOS DO USUARIO </legend>
+                        <label for="name"> Nome completo </label>
+                        <input type="text" name="name">
+                        <br>
+                        <label for="email"> Email </label>
+                        <input type="text" name="email">
+                        <br>
+                        <label for="senha"> Senha </label>
+                        <input type="password" name="password">
+                        <label for="senha"> Confirme sua senha </label>
+                        <input type="password" name="passwordVerify">
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Cadastrar" name="salvar">
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
