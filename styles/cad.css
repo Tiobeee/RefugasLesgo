@@ -1,0 +1,81 @@
+.header-img {
+    height: 150px;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-image: url(/img/acnur.png);
+    color: aliceblue;
+    margin: 0 auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    font-family: sans-serif;
+    color: #180046;
+}
+
+.form-img {
+    width: 750px;
+    display: flex;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.half-form {
+    width: 450px;
+    height: 450px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.half-img {
+    width: 300px;
+    height: 450px;
+    justify-content: left;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.field-out {
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 450px;
+    border: solid 1px #7291d4;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.field-in {
+    width: 400px;
+    border-radius: 5px;
+    border: solid 1px #7291d4;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 1;
+    border: 1px solid #928aff;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #180046;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 20px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: block;
+}
