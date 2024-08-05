@@ -198,6 +198,14 @@ p#aa{
     width: 70%;
     display: flex;
 }
+.dados-ref-br2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 10px;
+    width: 60%;
+    display: flex;
+}
 
 .dados1-img {
     height: 260px;
@@ -208,10 +216,16 @@ p#aa{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
-alt{
-    color: aliceblue;
+.dados2-img {
+    height: 260px;
+    width: 450px;
+    position: relative;
+    object-fit: cover;
+    object-position: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
+
 
 .doas{
     justify-content: center;
