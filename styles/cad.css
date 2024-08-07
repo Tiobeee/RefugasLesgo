@@ -206,6 +206,14 @@ p#aa{
     width: 60%;
     display: flex;
 }
+.sobre-s {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 10px;
+    width: 60%;
+    display: flex;
+}
 
 .dados1-img {
     height: 260px;
@@ -217,13 +225,26 @@ p#aa{
     border-bottom-right-radius: 20px;
 }
 .dados2-img {
-    height: 260px;
-    width: 450px;
+    height: 250px;
+    width: 250px;
     position: relative;
     object-fit: cover;
-    object-position: 100%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    object-position: 50%;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    border-radius: 100%;
+}
+
+.sobre-img {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    object-fit: cover;
+    object-position: 50%;
+    margin-left: auto;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    border-radius: 100%;
 }
 
 
