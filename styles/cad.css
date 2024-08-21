@@ -263,7 +263,7 @@ p#aa{
     width: 400px;
     position: relative;
     object-fit:cover; 
-    object-position: 30%;
+    object-position: 35%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -300,4 +300,8 @@ p#aa{
     align-content: center;
     display: block;
     margin: 10px;
+}
+
+#sc{
+    font-size: 90%;
 }
