@@ -206,6 +206,29 @@ p#aa{
     width: 60%;
     display: flex;
 }
+
+.dados-ref-sc {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 10px;
+    width: 70%;
+}
+
+.ref-sc{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.adendo{
+    display: block;
+    width: 100%;
+    font-size: small;
+    text-align: center;
+}
 .sobre-s {
     margin-left: auto;
     margin-right: auto;
@@ -216,11 +239,11 @@ p#aa{
 }
 
 .dados1-img {
-    height: 260px;
-    width: 450px;
+    height: 450px;
+    width: 400px;
     position: relative;
-    object-fit: cover;
-    object-position: 100%;
+    object-fit:cover; 
+    object-position: 30%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -235,15 +258,23 @@ p#aa{
     border-radius: 100%;
 }
 
+.sc-img{
+    height: 450px;
+    width: 400px;
+    position: relative;
+    object-fit:cover; 
+    object-position: 30%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
 .sobre-img {
     height: 250px;
     width: 250px;
     position: relative;
     object-fit: cover;
     object-position: 50%;
-    margin-left: auto;
-    /* border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px; */
+    margin-right: auto;
     border-radius: 100%;
 }
 
@@ -255,4 +286,18 @@ p#aa{
     margin-right: auto;
     text-align: center;
     width: 60%;
+}
+
+.esp-txt{
+    margin: 25px;
+}
+
+#legenda{
+    font-size: small;
+    justify-content:center;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    display: block;
+    margin: 10px;
 }
