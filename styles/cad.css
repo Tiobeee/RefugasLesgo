@@ -246,6 +246,7 @@ p#aa{
     object-position: 30%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin-right: 100px;
 }
 .dados2-img {
     height: 250px;
@@ -289,7 +290,12 @@ p#aa{
 }
 
 .esp-txt{
-    margin: 25px;
+    margin: 20px;
+    align-items: center;
+    justify-content:center;
+    align-items: left;
+    align-content: center;
+   
 }
 
 #legenda{
