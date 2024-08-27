@@ -1,166 +1,146 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="auto">
-  <head>
-    <script src="../assets/js/color-modes.js"></script>
+<html>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta
-      name="author"
-      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
-    />
-    <meta name="generator" content="Hugo 0.122.0" />
-    <title>Headers · Bootstrap v5.3</title>
+<head>
+  <title> HomeScreen </title>
+  <meta charset="utf-8" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+  <script src="../assets/js/color-modes.js"></script>
+  <link href="/styles/bs.css" rel="stylesheet" />
+  <link href="/styles/cad.css" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" /> -->
 
-    <link
-      rel="canonical"
-      href="https://getbootstrap.com/docs/5.3/examples/headers/"
-    />
+  <main>
+    <div class="header-img"></div>
+    <div class="container">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" target="_blank" class="nav-link px-2">Home</a></li>
+          <li><a href="doacoes.html" target="_blank" class="nav-link px-2">Saiba como ajudar </a></li>
+          <li><a href="sobre.html" target="_blank" class="nav-link px-2">Sobre</a></li>
+        </ul>
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
-    />
+        <div class="col-md-3 text-end">
+          <a href="login.html" target="_blank"><button type="button" class="btn btn-outline-primary me-2">
+              Entrar </button></a>
+          <a href="cadastro.html" target="_blank"><button type="button" class="btn btn-primary"
+              style="background-color: rgb(138, 146, 255)">
+              Cadastre-se</button> </a>
+        </div>
+      </header>
+    </div>
+  </main>
+</head>
 
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+<body>
 
-    <style>
-      /* .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+  <h2> Acesse os sites oficiais para mais informações</h2>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
+  <div class="fontes">
 
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
+    <div class="unhcr">
+      <a href="https://www.unhcr.org/"><img src="img/unhcr2.png" class="un-img"></a>
+      <p id="aa">Site oficial da <b>UNHCR</b></p>
+    </div>
 
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
+    <div class="acnur">
+      <a href="https://www.acnur.org/portugues/"><img src="img/acnur2.png" class="font-img"></a>
+      <p id="a">Site oficial da <b>ACNUR</b>, correspondente Brasileira da <b>UNHCR</b>.</p>
 
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
+    </div>
+  </div>
 
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  <br><br>
+  <h2> Refugiados no Brasil </h2>
 
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
+  <div class="dados-ref-br">
+    <div class="esp-txt">
+      <p>
+        De acordo com dados divulgados na última edição do relatório “Refúgio em Números”, apenas em 2023, no Brasil,
+        foram feitas 58.3628 solicitações da condição de refugiado, provenientes de 150 países. As principais
+        nacionalidades solicitantes em 2022 foram venezuelanas (50,3%), cubanas (19,6%) e angolanas (6,7%).
+      </p>
+      <p>Em 2023, o Comitê Nacional para os Refugiados (Conare) reconheceu 77.193 pessoas como refugiadas. Os homens
+        corresponderam a 51,7% desse total e as mulheres, a 47,6%. Além disso, 44,3% das pessoas reconhecidas como
+        refugiadas eram crianças, adolescentes e jovens com até 18 anos de idade.</p>
+        <h3></h3>
+    </div>
+    <div class="jesus"> <img src="img/mig-ref.jpeg" class="dados1-img" alt="https://www.acnur.org/portugues/">
+      <p id="legenda"> Foto: UNHCR </p>
+    </div>
 
-      .bd-mode-toggle {
-        z-index: 1500;
-      }
+  </div>
+  <div class="dados-ref-sc">
+    <h2> Refugiados e imigrantes em Santa Catarina </h2>
+    <p class="adendo"> Matéria retirada de: <a
+        href="//g1.globo.com/sc/santa-catarina/noticia/2023/09/27/por-que-sc-foi-o-estado-do-pais-que-mais-recebeu-imigrantes-vindos-da-venezuela.ghtml">G1:Por
+        que SC foi o estado do país que mais recebeu imigrantes vindos da Venezuela</a></p>
 
-      .bd-mode-toggle .dropdown-menu .active .bi {
-        display: block !important;
-      } */
-      .header-img {
-        padding: 80px;
-        text-align: center;
-        /* background-image: url(https://www.acnur.org/portugues/wp-content/uploads/2019/01/Venezuelan-refugee-in-Brazil-2332.jpg); */
-        color: rgb(255, 255, 255);
-        background-image: linear-gradient(to right, rgb(29, 96, 190), rgb(255, 255, 255));
-      }
-    </style>
-
-    
-
-    <main>
-      <div class="header-img">
-        <h1>Refugiados</h1>
-        <p>Eles estão sem casa?</p>
+    </p>
+    <div class="ref-sc">
+      <div class="jesus"><img src="img/imigrantes-venezuela.png" class="sc-img" alt="https://www.acnur.org/portugues/">
+        <p id="legenda"> Foto: Luca Gebara/ Divulgação </p>
       </div>
-
-      <div class="container">
-        <header
-          class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
-        >
-          <div class="col-md-3 mb-2 mb-md-0">
-            <a
-              href="/"
-              class="d-inline-flex link-body-emphasis text-decoration-none"
-            >
-              <svg
-                class="bi"
-                width="40"
-                height="32"
-                role="img"
-                aria-label="Bootstrap"
-              >
-                <use xlink:href="#bootstrap" />
-              </svg>
-            </a>
-          </div>
-
-          <ul
-            class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
-          >
-            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-2">Informações</a></li>
-            <li><a href="#" class="nav-link px-2">Vagas </a></li>
-            <li><a href="#" class="nav-link px-2">Sobre</a></li>
-          </ul>
-
-          <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">
-              Entrar
-            </button>
-            <button
-              type="button"
-              class="btn btn-primary"
-              style="background-color: blueviolet"
-            >
-              Cadastre-se
-            </button>
-          </div>
-        </header>
+      <div class="esp-txt">
+        <p id="sc">
+          <b> " </b>Santa Catarina é o estado que mais acolheu venezuelanos em cinco anos no Brasil, segundo
+          levantamento da
+          Operação Acolhida, força-tarefa do governo federal em parceria com organizações sociais para atendimento e
+          assistência aos imigrantes.<br>
+          A Secretaria da Assistência Social, Mulher e Família (SAS) do governo de Santa Catarina aponta que a escolha
+          pelo estado está relacionada à "excelente qualidade de vida e ótimas oportunidades de emprego".
+          <br><br>
+          De acordo com o comandante da força-tarefa, general de Divisão Helder de Freitas Braga, cerca de 1 milhão de
+          venezuelanos já entraram no país. Quase metade, 454 mil, vai para outros países, enquanto cerca de 480 mil
+          permaneceram no Brasil.
+          <br><br>
+          Dentre os municípios que se destacaram por receber venezuelanos está Joinville, com o número de 2,2 mil entre
+          os
+          anos de 2018 e 2023.<br>
+          Em nota ao g1 SC, a SES informou que o grande desafio do estado é garantir que os imigrantes tenham acesso a
+          políticas públicas de todas as áreas, além de acesso a trabalho.
+          <br><br>
+          Para que isso aconteça, segundo o texto, o estado articula parcerias com diversas entidades governamentais e
+          não
+          governamentais, e também realiza ações intersetoriais, como mutirões para confecção de documentos e
+          encaminhamento para o mercado de trabalho.
+          <br><br>
+          "A SAS, por meio da Diretoria de Direitos Humanos, também é responsável por receber as denúncias de violação
+          de
+          direitos contra os imigrantes e encaminhamento aos órgãos necessários e acompanhamento dos casos", destaca o
+          texto. <b> " </b>
+        </p>
       </div>
-    </main>
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="info-link">
+      <div class="infos">
+        <ul>
+          <li> Trabalho acadêmico </li>
+          <li> Informações retiradas dos sites oficiais da UNHCR e sua respectiva organização representante
+            Brasileira, ACNUR.</li>
+          <li> Profª Orientadora: Thalita Almeida </li>
+        </ul>
+        <ul class="navzinho">
+          <li><a href="index.html/" class="ai" target="_top">Home</a></li>
+          <li><a href="doacoes.html/" class="ai" target="_top">Saiba como ajudar </a></li>
+          <li><a href="sobre.html/" class="ai" target="_top">Sobre</a></li>
+          <li><a href="login.html/" class="ai" target="_top">Login</a></li>
+          <li><a href="" style="text-decoration: underline;">Logout</a></li>
+        </ul>
+      </div>
+      <div class="links">
+        <a href="https://www.acnur.org/portugues/"><img src="img/acnur-logo.png"></a>
+        <a href="https://www.unhcr.org/"><img src="img/unhcr.png" style="margin-top: 10px"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
